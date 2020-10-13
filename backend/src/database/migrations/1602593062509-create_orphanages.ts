@@ -15,7 +15,7 @@ export class createOrphanages1602593062509 implements MigrationInterface {
         },
         {
           name: 'name',
-          type: 'decimal',
+          type: 'varchar',
         },
         {
           name: 'latitude',
@@ -36,6 +36,10 @@ export class createOrphanages1602593062509 implements MigrationInterface {
         {
           name: 'instructions',
           type: 'text',
+        },
+        {
+          name: 'opening_hours',
+          type: 'varchar',
         },
         {
           name: 'open_on_weekends',
